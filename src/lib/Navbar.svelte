@@ -1,5 +1,5 @@
 <script>
-    import downloadLogo from '../assets/images/download-dark.svg';
+    import downloadLogo from '/images/download-dark.svg';
 </script>
 
 <div class="navbar">
