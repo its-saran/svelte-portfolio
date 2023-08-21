@@ -1,5 +1,5 @@
 <script>
-    import TodoList from "./lib/TodoList.svelte";
+    import TodoList from "../lib/TodoList.svelte";
     import { v4 as uuid } from "uuid";
 
 
