@@ -52,9 +52,3 @@ export default {
 }
 
 
-// {
-//   'mobile': '320px',    // Define your custom mobile breakpoint
-//   'tablet': '640px',
-//   'laptop': '1024px',
-//   'desktop': '1280px',
-// },

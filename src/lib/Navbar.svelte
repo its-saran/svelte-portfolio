@@ -6,10 +6,10 @@
     let logoText = "btn btn-ghost normal-case text-4xl font-bold"
     let menu = "menu menu-horizontal"
     let menuItem = "transition-none rounded-md"
-    let downloadButton = "main-button download-resume mr-4 hidden xl:flex"
-    let themeSwitch = "swap swap-rotate xs:mr-5 2xl:mr-10"
-    let menuSwitch = "btn btn-circle btn-ghost swap swap-rotate xl:hidden" 
-    let navbarCenter = "navbar-center hidden xl:flex"
+    let downloadButton = "main-button download-resume mr-4 hidden 2xl:flex"
+    let themeSwitch = "swap swap-rotate mr-1.5 md:mr-4 lg:mr-6 2xl:mr-8"
+    let menuSwitch = "btn btn-circle btn-ghost swap swap-rotate 2xl:hidden" 
+    let navbarCenter = "navbar-center hidden 2xl:flex"
   
     let pageWidth = window.innerWidth;
     const handleResize = () => { pageWidth = window.innerWidth; };
