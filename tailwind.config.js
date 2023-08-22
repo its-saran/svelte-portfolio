@@ -1,9 +1,10 @@
 import daisyui from "daisyui";
+import typography from "@tailwindcss/typography";
 
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html",'./src/**/*.{svelte,js,ts}'], 
-  plugins: [daisyui],
+  plugins: [daisyui, typography],
   theme: {
     fontFamily: {
       oufit: ["Outfit", "sans-serif"]
