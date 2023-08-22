@@ -36,13 +36,6 @@
         transition-duration: 200ms;
     }
 
-
-    @media (width >= 1280px) { #menu-switch { @apply hidden} }
-    @media (width < 1280px) {
-        .download-resume { @apply hidden }
-        .navbar-center { @apply hidden }
-        #theme-switch { @apply mr-5 }
-    }
 }
 
 @layer utilities {
