@@ -9,11 +9,12 @@ export default {
       oufit: ["Outfit", "sans-serif"]
     },
     screens: {
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
+      'xs': '320px',
+      'sm': '420px', 
+      'md': '640px',
+      'lg': '768px',
+      'xl': '1024px',
+      '2xl': '1280px',
     },
   },
   daisyui: {
