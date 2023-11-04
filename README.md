@@ -1,6 +1,11 @@
-# Svelte + Vite + Tailwind
+# Svelte - Portfolio Website Template
 
-This template should help get you started developing with Svelte with Tailwind in Vite.
+Welcome to the Svelte - Portfolio Website Template! This template is designed to help you create a stunning portfolio website to showcase your skills, projects, and experiences. It's built with modern web development tools, including Svelte, Tailwind CSS, Daisy UI, JavaScript, and integrates with Vite and Hygraph CMS for an efficient and seamless development and content management experience.
+
+
+```diff
+! Note: Please be aware that this project is not yet fully developed and may be unstable for production use. Use it for experimentation and testing purposes.. 
+```
 
 ## Get started
 

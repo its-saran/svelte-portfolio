@@ -22,9 +22,6 @@
         document.documentElement.setAttribute('data-theme', theme);
     }
 
-    let toggleMenuChecked = false;
-    const handleToggle = () => { toggleMenuChecked = !toggleMenuChecked;};
-
 
 </script>
   
@@ -70,24 +67,6 @@
     </div>
 </nav>
 
-
-<div id="mobileDropdown" class="flex-item" class:show={toggleMenuChecked}>
-    <ul class="menu">
-        <li><a href="#intro">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#qualifications">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-    <button class="main-button download-resume-mobile">
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
-            <image xlink:href="images/download-dark.svg" width="25" height="25"></image>
-        </svg>
-        <span>Resume</span>
-    </button>
-</div>
-
 <style>
     #logo-text {
         background-image: linear-gradient(135deg, rgb(255, 140, 5) 0%, rgb(214, 26, 94) 100%);
@@ -99,10 +78,6 @@
     .menu a { letter-spacing: 1px; font-weight: 500; }
     .main-button:hover { background-position: right center; color: #1f2937; text-decoration: none; }
     .main-button:active { transform: scale(0.9); }
-
-    #mobileDropdown { @apply self-start w-full max-h-0 overflow-hidden;transition: max-height 0.5s ease;}
-    #mobileDropdown.show { max-height: 285px; }
-    #mobileDropdown .menu { @apply menu-vertical px-4; }
 </style>
   
   

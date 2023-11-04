@@ -1,6 +1,6 @@
 <script>
-
 </script>
+
 <section id="about" class="frame">
     <div class="section-title prose-lg max-w-none font-bold mb-6 text-orange-500">
         <h2>About Me</h2>
